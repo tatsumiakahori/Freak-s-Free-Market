@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+}
+
+#defaultCanvas0{
+    position: fixed; /*canvasを固定*/
+    top: 0; /*canvasを上に固定*/
+  }
