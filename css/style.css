@@ -1,8 +1,50 @@
-body{
+/* -----
+common 
+----- */
+@font-face {
+    font-family: 'LeagueGothic-CondensedItalic';
+    src: url(/fonts/league-gothic/LeagueGothic-Italic.otf);
+}
+
+.main-font {
+    font-family: 'LeagueGothic-CondensedItalic';
+}
+
+
+/* -----
+main
+----- */
+body {
     margin: 0;
 }
 
-#defaultCanvas0{
-    position: fixed; /*canvasを固定*/
-    top: 0; /*canvasを上に固定*/
-  }
+.kv_container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/img/IMG_2682.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.kv_main-content {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 80vw;
+    height: 300px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.kv_title {
+    font-size: 140px;
+}
+
+.kv_sub-title {
+    letter-spacing: 3px;
+    font-weight: 100;
+}
