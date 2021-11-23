@@ -48,3 +48,9 @@ body {
     letter-spacing: 3px;
     font-weight: 100;
 }
+
+.box {
+    height: 300vh;
+    width: 100vw;
+    display: block;
+}
